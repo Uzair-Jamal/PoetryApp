@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/lightGray"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:id="@+id/tv_poetName"
+        android:text="Mirza Ghalib"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:id="@+id/tv_poetryData"
+        android:text="Dard e dil kay wastay paida kia insaan ko werna taat kay liey kuch kam na thay karo bayaan."
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:id="@+id/tv_poetryDateTime"
+        android:text="8/1/2024"
+        android:gravity="center_vertical|right"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textSize="12sp"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/update_btn"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/delete_btn"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+</LinearLayout>
